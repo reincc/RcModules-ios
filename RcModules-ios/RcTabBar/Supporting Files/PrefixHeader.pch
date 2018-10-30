@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  RcTabBar
+//
+//  Created by rein on 2018/10/29.
+//  Copyright © 2018 rein. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <RnUtil/RnUtil.h>
+
+#endif /* PrefixHeader_pch */

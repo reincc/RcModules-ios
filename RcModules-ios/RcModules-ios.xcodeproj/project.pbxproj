@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3714665D2186A10600661BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714665C2186A10600661BAB /* AppDelegate.m */; };
+		371466652186A10700661BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371466642186A10700661BAB /* Assets.xcassets */; };
+		3714666B2186A10700661BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714666A2186A10700661BAB /* main.m */; };
+		371466712186A1C300661BAB /* RcTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466702186A1C300661BAB /* RcTabBarViewController.m */; };
+		371466762186A26700661BAB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466752186A26700661BAB /* FirstViewController.m */; };
+		371466792186A27B00661BAB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466782186A27B00661BAB /* SecondViewController.m */; };
+		3714667C2186A28A00661BAB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714667B2186A28A00661BAB /* ThirdViewController.m */; };
+		3714667F2186A29E00661BAB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714667E2186A29E00661BAB /* FourthViewController.m */; };
+		371466892186A4A900661BAB /* wode_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466812186A4A800661BAB /* wode_normal@2x.png */; };
+		3714668A2186A4A900661BAB /* shouye_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466822186A4A800661BAB /* shouye_press@2x.png */; };
+		3714668B2186A4A900661BAB /* faxian_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466832186A4A800661BAB /* faxian_normal@2x.png */; };
+		3714668C2186A4A900661BAB /* shouye_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466842186A4A800661BAB /* shouye_normal@2x.png */; };
+		3714668D2186A4A900661BAB /* tansuo_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466852186A4A800661BAB /* tansuo_press@2x.png */; };
+		3714668E2186A4A900661BAB /* wode_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466862186A4A800661BAB /* wode_press@2x.png */; };
+		3714668F2186A4A900661BAB /* faxian_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466872186A4A800661BAB /* faxian_press@2x.png */; };
+		371466902186A4A900661BAB /* tansuo_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466882186A4A900661BAB /* tansuo_normal@2x.png */; };
+		371466972186A67300661BAB /* RcTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466912186A67300661BAB /* RcTabBarConfig.m */; };
+		371466982186A67300661BAB /* RcTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466922186A67300661BAB /* RcTabBar.m */; };
+		371466992186A67300661BAB /* RcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466932186A67300661BAB /* RcAnimation.m */; };
+		371466B12186A7D000661BAB /* RnUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 371466AF2186A7D000661BAB /* RnUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371466B82186A7E500661BAB /* NSString+RnUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 371466B62186A7E500661BAB /* NSString+RnUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371466B92186A7E500661BAB /* NSString+RnUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466B72186A7E500661BAB /* NSString+RnUtil.m */; };
+		371466BD2186AA7E00661BAB /* UIImage+RnUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 371466BB2186AA7E00661BAB /* UIImage+RnUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371466BE2186AA7E00661BAB /* UIImage+RnUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466BC2186AA7E00661BAB /* UIImage+RnUtil.m */; };
+		371466C22186EDD800661BAB /* UIColor+RnUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 371466C02186EDD800661BAB /* UIColor+RnUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371466C32186EDD800661BAB /* UIColor+RnUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 371466C12186EDD800661BAB /* UIColor+RnUtil.m */; };
+		371466C82186FF3A00661BAB /* RnUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371466AD2186A7D000661BAB /* RnUtil.framework */; };
+		371466CA2187E6C100661BAB /* music_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466C92187E6C100661BAB /* music_pause@2x.png */; };
+		371466CC2187E6DA00661BAB /* music_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466CB2187E6DA00661BAB /* music_play@2x.png */; };
+		371466CE2187E74400661BAB /* music_cycle_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371466CD2187E74400661BAB /* music_cycle_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		371466592186A10600661BAB /* RcTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RcTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3714665B2186A10600661BAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3714665C2186A10600661BAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		371466642186A10700661BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371466692186A10700661BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3714666A2186A10700661BAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3714666F2186A1C300661BAB /* RcTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RcTabBarViewController.h; sourceTree = "<group>"; };
+		371466702186A1C300661BAB /* RcTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RcTabBarViewController.m; sourceTree = "<group>"; };
+		371466742186A26700661BAB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		371466752186A26700661BAB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		371466772186A27B00661BAB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		371466782186A27B00661BAB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3714667A2186A28A00661BAB /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3714667B2186A28A00661BAB /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3714667D2186A29E00661BAB /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3714667E2186A29E00661BAB /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		371466812186A4A800661BAB /* wode_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wode_normal@2x.png"; sourceTree = "<group>"; };
+		371466822186A4A800661BAB /* shouye_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_press@2x.png"; sourceTree = "<group>"; };
+		371466832186A4A800661BAB /* faxian_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian_normal@2x.png"; sourceTree = "<group>"; };
+		371466842186A4A800661BAB /* shouye_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_normal@2x.png"; sourceTree = "<group>"; };
+		371466852186A4A800661BAB /* tansuo_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tansuo_press@2x.png"; sourceTree = "<group>"; };
+		371466862186A4A800661BAB /* wode_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wode_press@2x.png"; sourceTree = "<group>"; };
+		371466872186A4A800661BAB /* faxian_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faxian_press@2x.png"; sourceTree = "<group>"; };
+		371466882186A4A900661BAB /* tansuo_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tansuo_normal@2x.png"; sourceTree = "<group>"; };
+		371466912186A67300661BAB /* RcTabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RcTabBarConfig.m; sourceTree = "<group>"; };
+		371466922186A67300661BAB /* RcTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RcTabBar.m; sourceTree = "<group>"; };
+		371466932186A67300661BAB /* RcAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RcAnimation.m; sourceTree = "<group>"; };
+		371466942186A67300661BAB /* RcTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcTabBar.h; sourceTree = "<group>"; };
+		371466952186A67300661BAB /* RcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcAnimation.h; sourceTree = "<group>"; };
+		371466962186A67300661BAB /* RcTabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcTabBarConfig.h; sourceTree = "<group>"; };
+		371466AD2186A7D000661BAB /* RnUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RnUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371466AF2186A7D000661BAB /* RnUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnUtil.h; sourceTree = "<group>"; };
+		371466B02186A7D000661BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371466B62186A7E500661BAB /* NSString+RnUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RnUtil.h"; sourceTree = "<group>"; };
+		371466B72186A7E500661BAB /* NSString+RnUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RnUtil.m"; sourceTree = "<group>"; };
+		371466BB2186AA7E00661BAB /* UIImage+RnUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RnUtil.h"; sourceTree = "<group>"; };
+		371466BC2186AA7E00661BAB /* UIImage+RnUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RnUtil.m"; sourceTree = "<group>"; };
+		371466C02186EDD800661BAB /* UIColor+RnUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+RnUtil.h"; sourceTree = "<group>"; };
+		371466C12186EDD800661BAB /* UIColor+RnUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RnUtil.m"; sourceTree = "<group>"; };
+		371466C62186FA4E00661BAB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		371466C92187E6C100661BAB /* music_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_pause@2x.png"; sourceTree = "<group>"; };
+		371466CB2187E6DA00661BAB /* music_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_play@2x.png"; sourceTree = "<group>"; };
+		371466CD2187E74400661BAB /* music_cycle_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_cycle_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371466562186A10600661BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371466C82186FF3A00661BAB /* RnUtil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371466AA2186A7D000661BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371466332186A04C00661BAB = {
+			isa = PBXGroup;
+			children = (
+				3714665A2186A10600661BAB /* RcTabBar */,
+				371466AE2186A7D000661BAB /* RnUtil */,
+				3714663D2186A04C00661BAB /* Products */,
+				371466C72186FF3A00661BAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3714663D2186A04C00661BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371466592186A10600661BAB /* RcTabBar.app */,
+				371466AD2186A7D000661BAB /* RnUtil.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3714665A2186A10600661BAB /* RcTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3714665B2186A10600661BAB /* AppDelegate.h */,
+				3714665C2186A10600661BAB /* AppDelegate.m */,
+				371466722186A1F700661BAB /* root */,
+				371466732186A20200661BAB /* tab */,
+				371466802186A2B400661BAB /* resource */,
+				371466C52186F91C00661BAB /* Supporting Files */,
+			);
+			path = RcTabBar;
+			sourceTree = "<group>";
+		};
+		371466722186A1F700661BAB /* root */ = {
+			isa = PBXGroup;
+			children = (
+				3714666F2186A1C300661BAB /* RcTabBarViewController.h */,
+				371466702186A1C300661BAB /* RcTabBarViewController.m */,
+				371466952186A67300661BAB /* RcAnimation.h */,
+				371466932186A67300661BAB /* RcAnimation.m */,
+				371466942186A67300661BAB /* RcTabBar.h */,
+				371466922186A67300661BAB /* RcTabBar.m */,
+				371466962186A67300661BAB /* RcTabBarConfig.h */,
+				371466912186A67300661BAB /* RcTabBarConfig.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		371466732186A20200661BAB /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				371466742186A26700661BAB /* FirstViewController.h */,
+				371466752186A26700661BAB /* FirstViewController.m */,
+				371466772186A27B00661BAB /* SecondViewController.h */,
+				371466782186A27B00661BAB /* SecondViewController.m */,
+				3714667A2186A28A00661BAB /* ThirdViewController.h */,
+				3714667B2186A28A00661BAB /* ThirdViewController.m */,
+				3714667D2186A29E00661BAB /* FourthViewController.h */,
+				3714667E2186A29E00661BAB /* FourthViewController.m */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+		371466802186A2B400661BAB /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				371466CD2187E74400661BAB /* music_cycle_bg@2x.png */,
+				371466CB2187E6DA00661BAB /* music_play@2x.png */,
+				371466C92187E6C100661BAB /* music_pause@2x.png */,
+				371466822186A4A800661BAB /* shouye_press@2x.png */,
+				371466842186A4A800661BAB /* shouye_normal@2x.png */,
+				371466872186A4A800661BAB /* faxian_press@2x.png */,
+				371466832186A4A800661BAB /* faxian_normal@2x.png */,
+				371466852186A4A800661BAB /* tansuo_press@2x.png */,
+				371466882186A4A900661BAB /* tansuo_normal@2x.png */,
+				371466862186A4A800661BAB /* wode_press@2x.png */,
+				371466812186A4A800661BAB /* wode_normal@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		371466AE2186A7D000661BAB /* RnUtil */ = {
+			isa = PBXGroup;
+			children = (
+				371466AF2186A7D000661BAB /* RnUtil.h */,
+				371466BF2186EDBA00661BAB /* UIColor+RnUtil */,
+				371466BA2186AA5B00661BAB /* UIImage+RnUtil */,
+				371466B52186A7E500661BAB /* NSString+RnUtil */,
+				371466B02186A7D000661BAB /* Info.plist */,
+			);
+			path = RnUtil;
+			sourceTree = "<group>";
+		};
+		371466B52186A7E500661BAB /* NSString+RnUtil */ = {
+			isa = PBXGroup;
+			children = (
+				371466B62186A7E500661BAB /* NSString+RnUtil.h */,
+				371466B72186A7E500661BAB /* NSString+RnUtil.m */,
+			);
+			path = "NSString+RnUtil";
+			sourceTree = "<group>";
+		};
+		371466BA2186AA5B00661BAB /* UIImage+RnUtil */ = {
+			isa = PBXGroup;
+			children = (
+				371466BB2186AA7E00661BAB /* UIImage+RnUtil.h */,
+				371466BC2186AA7E00661BAB /* UIImage+RnUtil.m */,
+			);
+			path = "UIImage+RnUtil";
+			sourceTree = "<group>";
+		};
+		371466BF2186EDBA00661BAB /* UIColor+RnUtil */ = {
+			isa = PBXGroup;
+			children = (
+				371466C02186EDD800661BAB /* UIColor+RnUtil.h */,
+				371466C12186EDD800661BAB /* UIColor+RnUtil.m */,
+			);
+			path = "UIColor+RnUtil";
+			sourceTree = "<group>";
+		};
+		371466C52186F91C00661BAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				371466642186A10700661BAB /* Assets.xcassets */,
+				371466C62186FA4E00661BAB /* PrefixHeader.pch */,
+				371466692186A10700661BAB /* Info.plist */,
+				3714666A2186A10700661BAB /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		371466C72186FF3A00661BAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		371466A82186A7D000661BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371466B82186A7E500661BAB /* NSString+RnUtil.h in Headers */,
+				371466C22186EDD800661BAB /* UIColor+RnUtil.h in Headers */,
+				371466BD2186AA7E00661BAB /* UIImage+RnUtil.h in Headers */,
+				371466B12186A7D000661BAB /* RnUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		371466582186A10600661BAB /* RcTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3714666C2186A10700661BAB /* Build configuration list for PBXNativeTarget "RcTabBar" */;
+			buildPhases = (
+				371466552186A10600661BAB /* Sources */,
+				371466562186A10600661BAB /* Frameworks */,
+				371466572186A10600661BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RcTabBar;
+			productName = RcTabBar;
+			productReference = 371466592186A10600661BAB /* RcTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371466AC2186A7D000661BAB /* RnUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371466B22186A7D000661BAB /* Build configuration list for PBXNativeTarget "RnUtil" */;
+			buildPhases = (
+				371466A82186A7D000661BAB /* Headers */,
+				371466A92186A7D000661BAB /* Sources */,
+				371466AA2186A7D000661BAB /* Frameworks */,
+				371466AB2186A7D000661BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RnUtil;
+			productName = RnUtil;
+			productReference = 371466AD2186A7D000661BAB /* RnUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371466342186A04C00661BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = rein;
+				TargetAttributes = {
+					371466582186A10600661BAB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					371466AC2186A7D000661BAB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 371466372186A04C00661BAB /* Build configuration list for PBXProject "RcModules-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371466332186A04C00661BAB;
+			productRefGroup = 3714663D2186A04C00661BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371466582186A10600661BAB /* RcTabBar */,
+				371466AC2186A7D000661BAB /* RnUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371466572186A10600661BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3714668D2186A4A900661BAB /* tansuo_press@2x.png in Resources */,
+				3714668B2186A4A900661BAB /* faxian_normal@2x.png in Resources */,
+				371466902186A4A900661BAB /* tansuo_normal@2x.png in Resources */,
+				3714668C2186A4A900661BAB /* shouye_normal@2x.png in Resources */,
+				371466CA2187E6C100661BAB /* music_pause@2x.png in Resources */,
+				371466CE2187E74400661BAB /* music_cycle_bg@2x.png in Resources */,
+				371466CC2187E6DA00661BAB /* music_play@2x.png in Resources */,
+				371466892186A4A900661BAB /* wode_normal@2x.png in Resources */,
+				3714668E2186A4A900661BAB /* wode_press@2x.png in Resources */,
+				3714668F2186A4A900661BAB /* faxian_press@2x.png in Resources */,
+				3714668A2186A4A900661BAB /* shouye_press@2x.png in Resources */,
+				371466652186A10700661BAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371466AB2186A7D000661BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371466552186A10600661BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371466792186A27B00661BAB /* SecondViewController.m in Sources */,
+				3714666B2186A10700661BAB /* main.m in Sources */,
+				371466982186A67300661BAB /* RcTabBar.m in Sources */,
+				371466992186A67300661BAB /* RcAnimation.m in Sources */,
+				371466972186A67300661BAB /* RcTabBarConfig.m in Sources */,
+				3714667C2186A28A00661BAB /* ThirdViewController.m in Sources */,
+				3714665D2186A10600661BAB /* AppDelegate.m in Sources */,
+				371466712186A1C300661BAB /* RcTabBarViewController.m in Sources */,
+				3714667F2186A29E00661BAB /* FourthViewController.m in Sources */,
+				371466762186A26700661BAB /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371466A92186A7D000661BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371466B92186A7E500661BAB /* NSString+RnUtil.m in Sources */,
+				371466C32186EDD800661BAB /* UIColor+RnUtil.m in Sources */,
+				371466BE2186AA7E00661BAB /* UIImage+RnUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		371466502186A04E00661BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		371466512186A04E00661BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3714666D2186A10700661BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SJ42G25M;
+				GCC_PREFIX_HEADER = "/Users/rein/Desktop/iOSPro/RcModules-ios/RcModules-ios/RcTabBar/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "RcTabBar/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = rein.RcTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3714666E2186A10700661BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SJ42G25M;
+				GCC_PREFIX_HEADER = "/Users/rein/Desktop/iOSPro/RcModules-ios/RcModules-ios/RcTabBar/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "RcTabBar/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = rein.RcTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		371466B32186A7D000661BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 53SJ42G25M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RnUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = rein.RnUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		371466B42186A7D000661BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 53SJ42G25M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RnUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = rein.RnUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371466372186A04C00661BAB /* Build configuration list for PBXProject "RcModules-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371466502186A04E00661BAB /* Debug */,
+				371466512186A04E00661BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3714666C2186A10700661BAB /* Build configuration list for PBXNativeTarget "RcTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3714666D2186A10700661BAB /* Debug */,
+				3714666E2186A10700661BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371466B22186A7D000661BAB /* Build configuration list for PBXNativeTarget "RnUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371466B32186A7D000661BAB /* Debug */,
+				371466B42186A7D000661BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371466342186A04C00661BAB /* Project object */;
+}
